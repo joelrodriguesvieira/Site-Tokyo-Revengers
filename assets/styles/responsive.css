@@ -1,0 +1,38 @@
+@media (max-width: 950px) {
+    .home {
+        background-image: none;
+    }
+    .posts {
+        height: 0;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .posts > p {
+        display: none;
+    }
+
+    .episodes {
+        background-image: none;
+        background-color: black;
+    }
+
+    ol {
+        padding-right: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    nav > ul {
+        display: none;
+    }
+
+}

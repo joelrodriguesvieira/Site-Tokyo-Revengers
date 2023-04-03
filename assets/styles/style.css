@@ -1,0 +1,249 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    height: 100%;
+}  
+/* TELA 01 */
+
+.home {
+    background-image: url('../imgs/otherfunds2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.logo {
+    width: 165px;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header.flex {
+    height: 50px;
+}
+
+nav {
+    width: 70%;
+}
+
+nav > ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul > li > a {
+    color: black;
+    font-family: 'Iceland';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+ul > li > a:hover {
+    font-weight: 600;
+    color: rgb(100%, 72%, 0%);
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    width: 668px;
+    font-family: 'Iceland';
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 89px;
+    text-align: left;
+    color:black
+}
+
+main > p {
+    width: 560px;
+    font-family: 'Iceland';
+    font-size: 24px;
+    font-weight: 30;
+    line-height: 25px;
+    text-align: left;
+    color:black;
+}
+
+button {
+    height: 46px;
+  width: 180px;
+  left: 5002px;
+  top: 23px;
+  color: white;
+  margin: 10px;
+  font-family: Iceland;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+    background-color: rgb(100%, 72%, 0%);
+}
+
+.active:hover {
+    border: 2px solid white;
+    color: black;
+  }
+
+.inactive {
+    background-color: black;
+}
+
+.inactive:hover {
+    border: 2px solid white;
+    color: rgb(100%, 72%, 0%);
+}
+
+main > section {
+    margin-top: 60px;
+}
+
+h3 {
+    height: 30px;
+  width: 336px;
+  font-family: Iceland;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: black;
+}
+
+section > ul {
+    width: 530px;
+}
+
+section > ul > li {
+    height: 139px;
+  width: 261px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  text-align: center;
+  border: 0.5px solid black;
+}
+
+.card-text:hover, .card-text h4:hover {
+    color: rgb(100%, 72%, 0%);
+}
+
+.primer {
+    background-image: url("../imgs/ep2.jpg");
+    color: white;
+    -webkit-text-stroke: 0.1px black;
+}
+
+.second {
+    background-image: url("../imgs/ep5.jpg");
+    color: white;
+    -webkit-text-stroke: 0.1px black
+}
+
+.episodes {
+    background-image: url('../imgs/FUNDOTELA23.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100%;
+    width: 100%;
+}
+
+.posts {
+    height: 546px;
+    width: 479px;
+    margin-top: 170px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.posts > p {
+    color: white;
+  font-family: Iceland;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+
+}
+
+.episodes-list {
+    height: 762px;
+    width: 671px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.card {
+    height: 142px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    margin: 8px auto;
+    color: white;
+}
+
+.card > img {
+    height: 120px;
+    width: 210px;
+    margin: 0 10px;
+    border: 1px solid white;
+}
+
+.card-text {
+    width: 60%;
+    height: 80%;
+    margin: 15px;
+}
+
+.card-text > h4 {
+    height: 30px;
+    font-family: 'Iceland';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+}
+
+.episodes-list::-webkit-scrollbar{
+    background-color: red;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+footer {
+    height: 60px;
+    background-color: black;
+}
